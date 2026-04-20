@@ -10,8 +10,8 @@
 - [42 School Standards](#42-school-standards)
 
 ## About
-This repository contains my implementation of the **philosophers** project at 42 School.  
-Philosophers is a classic concurrent programming project that simulates the famous "Dining Philosophers Problem" using threads and mutexes.  
+This repository contains my implementation of the **philosophers** project at 42 School.
+Philosophers is a classic concurrent programming project that simulates the famous "Dining Philosophers Problem" using threads and mutexes.
 The project introduces fundamental concepts of multithreading, synchronization, and concurrent programming while avoiding deadlocks and race conditions.
 
 **The Challenge:**
@@ -153,7 +153,7 @@ typedef struct s_phil
 
 ### Critical Timing Functions
 - **get_current_time()**: Returns current time in milliseconds
-- **ft_usleep()**: Precise sleeping function for timing control  
+- **ft_usleep()**: Precise sleeping function for timing control
 - **time_since_last_meal()**: Calculates elapsed time since philosopher's last meal
 - **print_status()**: Thread-safe status printing with mutex protection
 
@@ -180,7 +180,7 @@ The Dining Philosophers Problem is a classic synchronization problem in computer
 Using mutexes to represent each fork, philosophers must acquire mutexes for both needed forks before eating. The implementation includes:
 
 - Mutex-protected fork access
-- Ordered fork acquisition to prevent deadlocks  
+- Ordered fork acquisition to prevent deadlocks
 - Death monitoring in separate thread
 - Thread-safe status reporting
 - Precise timing for all operations
@@ -218,6 +218,13 @@ Using mutexes to represent each fork, philosophers must acquire mutexes for both
 - ✅ Program should handle edge cases (1 philosopher, etc.)
 
 
+## 📝 Related Articles
+
+Blog posts documenting the learning process and context behind this project:
+
+- 📝 [42 Piscine and Common Core: What I Learned](https://arthur-portfolio.com/en/blog/42-piscine-and-core-curriculum) — Reflections on 42 School's selection process and 2-year curriculum
+
+---
 ## Contact
 - **GitHub**: [@TuroTheReal](https://github.com/TuroTheReal)
 - **Email**: arthurbernard.dev@gmail.com
