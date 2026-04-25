@@ -8,6 +8,8 @@
 - [Technical Implementation](#technical-implementation)
 - [The Dining Philosophers Problem](#the-dining-philosophers-problem)
 - [42 School Standards](#42-school-standards)
+- [Related Articles](#-related-articles)
+- [Contact](#contact)
 
 ## About
 This repository contains my implementation of the **philosophers** project at 42 School.
